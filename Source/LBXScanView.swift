@@ -106,7 +106,7 @@ open class LBXScanView: UIView
     /**
     *  开始扫描动画
     */
-    func startScanAnimation()
+    public func startScanAnimation()
     {
         if isAnimationing
         {
@@ -150,7 +150,7 @@ open class LBXScanView: UIView
     /**
      *  开始扫描动画
      */
-    func stopScanAnimation()
+    public func stopScanAnimation()
     {
         isAnimationing = false
         
